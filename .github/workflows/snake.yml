@@ -2,28 +2,24 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # alle 12 Stunden
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: devix05
-          output: snake.svg   # direkt im Root
+      - name: Generate snake.svg manually
+        run: |
+          cat << 'EOF' > snake.svg
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#111111"/>
+  <circle cx="100" cy="100" r="50" fill="#00FF00"/>
+</svg>
+EOF
 
       - name: Commit & push snake.svg
         run: |
