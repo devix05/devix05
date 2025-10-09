@@ -10,3 +10,5 @@
 
 ### 🔥 GitHub Stats
 ![Matej's GitHub stats](https://github-readme-stats.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
+
+https://raw.githubusercontent.com/devix05/devix05/output/snake-dark.svg
