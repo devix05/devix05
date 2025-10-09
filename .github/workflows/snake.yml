@@ -1,0 +1,44 @@
+name: Generate Snake Dark
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # Läuft täglich um 00:00
+  workflow_dispatch:       # Manueller Start möglich
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # 1️⃣ Repository auschecken
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Snake.svg direkt erstellen (Beispiel-SVG)
+      - name: Generate Snake SVG
+        run: |
+          cat << 'EOF' > snake.svg
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#111111"/>
+  <circle cx="100" cy="100" r="50" fill="#00FF00"/>
+</svg>
+EOF
+
+      # 3️⃣ Prüfen, ob die Datei existiert
+      - name: Check generated file
+        run: |
+          ls -la
+          if [ ! -f snake.svg ]; then
+            echo "Snake SVG was not generated!"
+            exit 1
+          fi
+
+      # 4️⃣ Commit & Push in main
+      - name: Commit and push Snake
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add snake.svg
+          git commit -m "Update snake.svg" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
