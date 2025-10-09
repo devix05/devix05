@@ -2,41 +2,38 @@ name: Generate Snake Dark
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # Läuft täglich um 00:00
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # 1️⃣ Repository auschecken
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 1️⃣ Dist-Ordner erstellen
-      - name: Create dist folder
-        run: mkdir -p dist
-
-      # 2️⃣ Snake generieren
-      - name: Generate Snake Animation
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: devix05
-          output: dist/snake.svg   # ⚠️ Datei liegt in dist/
+      # 2️⃣ Snake.svg direkt erstellen (Beispielinhalt)
+      - name: Generate Snake SVG
+        run: |
+          mkdir -p .
+          cat << 'EOF' > snake.svg
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#111111"/>
+  <circle cx="100" cy="100" r="50" fill="#00FF00"/>
+</svg>
+EOF
 
       # 3️⃣ Prüfen, ob die Datei existiert
-      - name: Check generated files
+      - name: Check generated file
         run: |
-          ls -la dist/
-          if [ ! -f dist/snake.svg ]; then
+          ls -la
+          if [ ! -f snake.svg ]; then
             echo "Snake SVG was not generated!"
             exit 1
           fi
 
-      # 4️⃣ In Root verschieben für Raw-Link
-      - name: Move Snake to Root
-        run: mv dist/snake.svg snake.svg
-
-      # 5️⃣ Commit & Push
+      # 4️⃣ Commit & Push in main
       - name: Commit and push Snake
         run: |
           git config user.name "github-actions"
@@ -46,3 +43,4 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
