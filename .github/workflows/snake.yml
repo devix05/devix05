@@ -2,29 +2,41 @@ name: Generate Snake Dark
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Läuft jeden Tag um 00:00
-  workflow_dispatch:       # Manueller Start möglich
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Repository auschecken
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Snake Animation generieren
+      # 1️⃣ Dist-Ordner erstellen
+      - name: Create dist folder
+        run: mkdir -p dist
+
+      # 2️⃣ Snake generieren
       - name: Generate Snake Animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: devix05
-          output: snake.svg   # ⚠️ Direkt im Root speichern
+          output: dist/snake.svg   # ⚠️ Datei liegt in dist/
 
-      # 3️⃣ Prüfen, ob die Datei erstellt wurde
+      # 3️⃣ Prüfen, ob die Datei existiert
       - name: Check generated files
-        run: ls -l
+        run: |
+          ls -la dist/
+          if [ ! -f dist/snake.svg ]; then
+            echo "Snake SVG was not generated!"
+            exit 1
+          fi
 
-      # 4️⃣ Datei direkt ins main-Branch pushen
+      # 4️⃣ In Root verschieben für Raw-Link
+      - name: Move Snake to Root
+        run: mv dist/snake.svg snake.svg
+
+      # 5️⃣ Commit & Push
       - name: Commit and push Snake
         run: |
           git config user.name "github-actions"
