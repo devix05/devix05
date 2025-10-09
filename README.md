@@ -12,4 +12,4 @@
 ![Matej's GitHub stats](https://github-readme-stats.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
 
 ### 🐍 My Contribution Snake
-![Snake animation](https://raw.githubusercontent.com/devix05/devix05/output/snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/devix05/devix05/main/dist/snake.svg)
