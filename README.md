@@ -1,4 +1,4 @@
-# Hi 👋 My name is Matej and I'm a Programmer 💻
+# Hi 👋 My name is Devix and I'm a Programmer 💻
 
 ### 🧠 About me
 - 💡 I love coding and learning new things
