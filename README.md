@@ -6,10 +6,7 @@
 - ⚙️ Currently learning **React** and **C**
 
 ### 📊 Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devix05&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats-phi-azure.vercel.app/api/top-langs/?username=devix05&layout=compact&theme=tokyonight)
 
 ### 🔥 GitHub Stats
-![Matej's GitHub stats](https://github-readme-stats.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
-
-### 🐍 My Contribution Snake
-![Snake animation](https://raw.githubusercontent.com/devix05/devix05/output/snake.svg)
+![Matej's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
