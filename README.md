@@ -13,7 +13,7 @@
 ---
 
 ### 🔥 GitHub Stats
-![Matej's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
+![Devix's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
 
 ---
 
