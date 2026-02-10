@@ -3,7 +3,7 @@
 ### 🧠 About me
 - 💡 I love coding and learning new things
 - 🌐 I work with **HTML**, **CSS**, **JavaScript**
-- ⚙️ Currently learning **React** and **C**
+- ⚙️ Currently learning **C** and **C++**
 
 ---
 
