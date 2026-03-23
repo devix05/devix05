@@ -1,8 +1,8 @@
 <h1 align="center">👋 Hi, I'm Devix — Application Developer</h1>
 
 <p align="center">
-  <a href="https://matejmanovic.dev" target="_blank">
-    <img style="border-radius:20px;" src="https://img.shields.io/badge/Portfolio-matejmanovic.dev-0077ff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
+  <a style="border-radius:20px;" href="https://matejmanovic.dev" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-matejmanovic.dev-0077ff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
   </a>
 </p>
 
