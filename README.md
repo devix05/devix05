@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://matejmanovic.dev" target="_blank">
-    <img src="https://img.shields.io/badge/🌐 Portfolio-matejmanovic.dev-ffffff?style=for-the-badge&logo=react&logoColor=61DAFB&color=0A0A0A&labelColor=111111" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-matejmanovic.dev-0077ff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio">
   </a>
 </p>
 
