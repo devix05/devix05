@@ -1,6 +1,10 @@
 # 👋 Hi, I'm Devix — Application Developer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-matejmanovic.dev-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://matejmanovic.dev)
+<p align="center">
+  <a href="https://matejmanovic.dev" target="_blank">
+    <img src="https://img.shields.io/badge/🌐 Portfolio-matejmanovic.dev-ffffff?style=for-the-badge&logo=react&logoColor=61DAFB&color=0A0A0A&labelColor=111111" alt="Portfolio">
+  </a>
+</p>
 
 ---
 
