@@ -1,21 +1,33 @@
-# Hi 👋 My name is Devix and I'm a Programmer 💻
+# 👋 Hi, I'm Devix — Application Developer
 
-### 🧠 About me
-- 💡 I love coding and learning new things
-- 🌐 I work with **HTML**, **CSS**, **JavaScript**
-- ⚙️ Currently learning **C** and **C++**
+[![Portfolio](https://img.shields.io/badge/Portfolio-matejmanovic.dev-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://matejmanovic.dev)
+
+---
+
+### 🧠 About Me
+
+I'm an aspiring application developer with a strong passion for coding and technology.  
+I enjoy building functional, user-friendly applications and continuously improving my skills.
+
+- 💡 I love solving problems and learning new technologies  
+- 🌐 Currently working with **HTML**, **CSS**, and **JavaScript**  
+- ⚙️ Expanding my knowledge into **C** and **C++**  
+- 🎯 Goal: Grow as an application developer and create meaningful software
 
 ---
 
 ### 📊 Most Used Languages
+
 ![Top Langs](https://github-readme-stats-phi-azure.vercel.app/api/top-langs/?username=devix05&layout=compact&theme=tokyonight)
 
 ---
 
 ### 🔥 GitHub Stats
+
 ![Devix's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=devix05&show_icons=true&theme=tokyonight)
 
 ---
 
-### 🐍 My Contribution Snake
+### 🐍 Contribution Snake
+
 ![snake gif](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
