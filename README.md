@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm Devix — Application Developer</h1>
+<h1 align="center">👋 Hi, I'm Devix<br> Application Developer</h1>
 
 <p align="center">
   <a href="https://matejmanovic.dev" target="_blank">
