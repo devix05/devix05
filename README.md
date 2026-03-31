@@ -33,12 +33,12 @@ I enjoy building functional, user-friendly applications and continuously improvi
 
 ---
 
-### 🛠️ I Work With (Technologies & Tools)
+### 🛠️ Technologies I Work With
 
 <p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="50" />
 </p>
 
 ---
