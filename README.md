@@ -20,7 +20,7 @@ I enjoy building functional, user-friendly applications and continuously improvi
 
 ---
 
-### 🚀 Skills (Programming Languages)
+### 🚀 Skills (Programming Languages & Version Control)
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="50" />
@@ -29,6 +29,8 @@ I enjoy building functional, user-friendly applications and continuously improvi
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="50" />
 </p>
 
 ---
