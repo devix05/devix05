@@ -20,7 +20,7 @@ I enjoy building functional, user-friendly applications and continuously improvi
 
 ---
 
-### 🚀 Skills (Programming Languages)
+### 🚀 Skills (Programming Languages I worked with.)
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="50" />
