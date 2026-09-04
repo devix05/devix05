@@ -46,13 +46,13 @@ I enjoy building functional, user-friendly applications and continuously improvi
 
 ### 📊 Most Used Languages
 
-![Top Langs](https://github-readme-stats-phi-azure.vercel.app/api/top-langs/?username=matejmanovic&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats-phi-azure.vercel.app/api/top-langs/?username=MatejManovic&layout=compact&theme=tokyonight)
 
 ---
 
 ### 🔥 GitHub Stats
 
-![Devix's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=matejmanovic&show_icons=true&theme=tokyonight)
+![Devix's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=MatejManovic&show_icons=true&theme=tokyonight)
 
 ---
 
