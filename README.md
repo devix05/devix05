@@ -10,7 +10,8 @@
 
 ### 🧠 About Me
 
-I'm an application development apprentice who enjoys programming and learning new technologies.\n
+I'm an application development apprentice who enjoys programming and learning new technologies.
+
 I like building useful applications and improving my skills.
 
 - 💡 I love solving problems and learning new technologies  
