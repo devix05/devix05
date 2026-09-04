@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm Matej<br> Application Developer</h1>
+<h1 align="center">👋 Hi, I'm Matej<br>Application Development Apprentice</h1>
 
 <p align="center">
   <a href="https://matejmanovic.dev" target="_blank">
@@ -10,18 +10,17 @@
 
 ### 🧠 About Me
 
-I'm an application development apprentice who enjoys programming and learning new technologies.
-
+I'm an application development apprentice who enjoys programming and learning new technologies.  
 I like building useful applications and improving my skills.
 
-- 💡 I love solving problems and learning new technologies  
-- 🌐 Currently working with **HTML**, **CSS**, and **JavaScript**  
-- ⚙️ Expanding my knowledge into **C** and **C++**  
-- 🎯 Goal: Grow as an application developer and create meaningful software
+- 💡 I enjoy solving problems and learning new technologies
+- 🌐 Currently working with **HTML**, **CSS**, and **JavaScript**
+- ⚙️ Expanding my knowledge in **C** and **C++**
+- 🎯 Goal: Grow as an application developer and build useful software
 
 ---
 
-### 🚀 Skills (Programming languages ​​I am learning.)
+### 🚀 Programming Languages I'm Learning
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="50" />
@@ -53,7 +52,7 @@ I like building useful applications and improving my skills.
 
 ### 🔥 GitHub Stats
 
-![Devix's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=MatejManovic&show_icons=true&theme=tokyonight)
+![Matej's GitHub stats](https://github-readme-stats-phi-azure.vercel.app/api?username=MatejManovic&show_icons=true&theme=tokyonight)
 
 ---
 
